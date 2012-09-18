@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="EnterScore">Enter Score</string>
+    <string name="ApplicationName">SQLite Android Specific</string>
+  <string name="Rating">Course Rating</string>
+  <string name="Slope">Course Slope</string>
+  <string name="EnterData">Enter Data</string>
+</resources>

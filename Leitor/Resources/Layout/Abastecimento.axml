@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/screen2Label"
+        android:layout_width="fill_parent"
+        android:layout_height="50.7dp"
+        android:text="Abastecimento" />
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow01">
+            <Button
+                android:text="x Cancelar"
+                android:layout_column="0"
+                android:id="@+id/button1"
+                style="@android:style/TextAppearance.Medium" />
+            <Button
+                android:text="v Salvar"
+                android:layout_column="2"
+                android:id="@+id/button2"
+                android:layout_width="138.0dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow0">
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1">
+            <TextView
+                android:text="Equipamento:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView10" />
+            <AutoCompleteTextView
+                android:layout_column="2"
+                android:id="@+id/autoCompleteTextView1"
+                android:layout_width="181.3dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <TextView
+                android:text="Tanque:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView11"
+                android:layout_height="wrap_content" />
+            <AutoCompleteTextView
+                android:layout_column="2"
+                android:id="@+id/idTanque" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <TextView
+                android:text="Tipo combustível:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView12" />
+            <Spinner
+                android:layout_column="2"
+                android:id="@+id/tipoCombustivel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4">
+            <TextView
+                android:text="Quantidade:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView13"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:inputType="number"
+                android:layout_column="2"
+                android:id="@+id/quantidade" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5">
+            <TextView
+                android:text="Horímetro:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView14"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:inputType="number"
+                android:layout_column="2"
+                android:id="@+id/horimetro" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

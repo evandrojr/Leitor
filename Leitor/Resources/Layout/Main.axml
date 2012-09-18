@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <EditText
+        android:id="@+id/ScoreNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="87" />
+    <EditText
+        android:id="@+id/Rating"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="67.6" />
+    <EditText
+        android:id="@+id/Slope"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="110" />
+    <TextView
+        android:id="@+id/OutputVal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <Button
+        android:text="Abastecimento"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Abastecimento" />
+</LinearLayout>
