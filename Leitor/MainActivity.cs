@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 using Android.App;
@@ -10,8 +10,8 @@ using Android.OS;
 
 namespace Leitor
 {
-    [Activity(Label = "SQLite Android Specific", MainLauncher = true, Icon = "@drawable/icon")]
-    public class Activity1 : Activity
+    [Activity(Label = "Leitor", MainLauncher = true, Icon = "@drawable/icon")]
+    public class MainActivity : Activity
     {
         private EditText etScoreNumber;
         private EditText etRating;
@@ -21,20 +21,14 @@ namespace Leitor
         {
             base.OnCreate(bundle);
 
-
-
 //			var intent = new Intent();
 //			intent.SetClass(this, typeof(AbastecimentoActivity));
 //			intent.PutExtra("Title", "Titulo");
 //			intent.PutExtra("Contents", "Conteudo");
 //			
 //			StartActivity(intent);
-
-
-
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
-
             etScoreNumber = FindViewById<EditText>(Resource.Id.ScoreNumber);
             etRating = FindViewById<EditText>(Resource.Id.Rating);
             etSlope = FindViewById<EditText>(Resource.Id.Slope);

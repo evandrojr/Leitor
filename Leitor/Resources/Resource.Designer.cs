@@ -40,11 +40,20 @@ namespace Leitor
 			// aapt resource value: 0x7f050019
 			public const int Abastecimento = 2131034137;
 			
+			// aapt resource value: 0x7f050003
+			public const int Cancelar = 2131034115;
+			
+			// aapt resource value: 0x7f050007
+			public const int Equipamento = 2131034119;
+			
 			// aapt resource value: 0x7f050018
 			public const int OutputVal = 2131034136;
 			
 			// aapt resource value: 0x7f050016
 			public const int Rating = 2131034134;
+			
+			// aapt resource value: 0x7f050004
+			public const int Salvar = 2131034116;
 			
 			// aapt resource value: 0x7f050015
 			public const int ScoreNumber = 2131034133;
@@ -54,12 +63,6 @@ namespace Leitor
 			
 			// aapt resource value: 0x7f050008
 			public const int autoCompleteTextView1 = 2131034120;
-			
-			// aapt resource value: 0x7f050003
-			public const int button1 = 2131034115;
-			
-			// aapt resource value: 0x7f050004
-			public const int button2 = 2131034116;
 			
 			// aapt resource value: 0x7f050014
 			public const int horimetro = 2131034132;
@@ -96,9 +99,6 @@ namespace Leitor
 			
 			// aapt resource value: 0x7f050012
 			public const int tableRow5 = 2131034130;
-			
-			// aapt resource value: 0x7f050007
-			public const int textView10 = 2131034119;
 			
 			// aapt resource value: 0x7f05000a
 			public const int textView11 = 2131034122;
